@@ -1,0 +1,22 @@
+print ('\t\t\tSigma')
+
+print ('Input Username and Password')
+
+username ='Hammer'
+
+password='nooks'
+
+usernameB=str(input('Username: '))
+
+passwordB=str(input('Password: '))
+
+if (usernameB==username and passwordB==password):
+    
+    print('ACCESS GRANTED ,Welcome back '+username)
+
+elif (usernameB==username and passwordB!=password):
+    print('INCORRECT PASSWORD')
+
+else:
+    print ('ACCESS DENIED')
+    
